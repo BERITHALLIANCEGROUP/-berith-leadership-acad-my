@@ -1,71 +1,134 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="BERITH Leadership Academy — formations et coaching en leadership, prise de parole et entrepreneuriat.">
-<title>BERITH Leadership Academy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BERITH Leadership Academy | Coach Djenonkar Daniel</title>
+<meta name="description" content="Formations et coaching en leadership, entrepreneuriat et développement personnel.">
 <style>
-:root{--blue:#17356d;--gold:#d7ad55;--ink:#172033;--muted:#5f6b7d;--bg:#f7f8fb}
-*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55}
-.wrap{width:min(850px,92%);margin:auto}header{background:#fff;border-bottom:1px solid #e6e9ef}
-.head{display:flex;align-items:center;gap:14px;padding:14px 0}.logo{width:64px;height:58px;object-fit:contain}
-.brand{font-weight:800;color:var(--blue);line-height:1.2}.brand small{display:block;font-size:12px;letter-spacing:2px;color:#9a762f;margin-top:4px}
-.hero{background:var(--blue);color:#fff;text-align:center;padding:48px 0 42px}.hero h1{font-size:clamp(30px,6vw,46px);margin:0 0 10px}
-.hero p{max-width:620px;margin:0 auto 22px;color:#e7edf9}.btn{display:inline-block;border:0;border-radius:8px;padding:13px 20px;font-weight:700;text-decoration:none;cursor:pointer}
-.gold{background:var(--gold);color:#172033}.blue{background:var(--blue);color:#fff}.green{background:#16834a;color:#fff}
-section{padding:25px 0}.panel{background:#fff;border:1px solid #e5e9f0;border-radius:12px;padding:22px;margin-bottom:14px}
-h2{color:var(--blue);font-size:23px;margin:0 0 14px}.programs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-.program{padding:12px;border:1px solid #e6e9ef;border-radius:8px;background:#fbfcfe}
-.price{font-size:30px;font-weight:800;color:var(--blue);margin:4px 0}.muted{color:var(--muted)}
-.details{display:flex;gap:10px;flex-wrap:wrap}.details span{background:#eef2f8;padding:8px 11px;border-radius:7px;font-size:14px}
-.founder{display:flex;gap:18px;align-items:center}.founder img{width:112px;height:130px;object-fit:cover;object-position:center top;border-radius:9px}
-label{display:block;font-weight:700;margin:12px 0 5px}input,select,textarea{width:100%;padding:12px;border:1px solid #ccd3df;border-radius:7px;font:inherit;background:white}
-form .btn{width:100%;margin-top:14px}footer{text-align:center;padding:22px 0;color:var(--muted);font-size:13px}
-.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}
-@media(max-width:560px){.programs{grid-template-columns:1fr}.founder{align-items:flex-start}.founder img{width:90px;height:112px}}
-</style></head>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f5f7fb;color:#17233d;line-height:1.6}
+header{background:white;padding:14px 5%;display:flex;align-items:center;gap:15px}
+.logo{width:65px;height:60px;object-fit:contain}
+h1,h2,h3{color:#17356d}
+header h2{margin:0;font-size:18px}
+header small{color:#777}
+.hero{background:#17356d;color:white;text-align:center;padding:55px 18px}
+.hero h1{color:white;font-size:32px}
+.hero p{max-width:650px;margin:15px auto}
+.btn{display:inline-block;background:#d7ad55;color:#172033;padding:13px 22px;border-radius:7px;text-decoration:none;font-weight:bold;margin:8px 4px}
+.blue{background:#17356d;color:white}
+section{max-width:850px;margin:25px auto;padding:25px;background:white;border-radius:12px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.item{padding:14px;background:#f1f4fa;border-radius:7px}
+.price{font-size:30px;font-weight:bold;color:#17356d}
+input,select,textarea{width:100%;padding:12px;margin:7px 0 15px;border:1px solid #ccd2df;border-radius:6px;font:inherit}
+label{font-weight:bold}
+button{border:0;cursor:pointer}
+.founder{display:flex;gap:22px;align-items:center}
+.founder img{width:140px;height:165px;object-fit:contain;background:#f1f1f1;border-radius:8px}
+footer{text-align:center;background:#101d42;color:white;padding:25px}
+@media(max-width:600px){.grid{grid-template-columns:1fr}.founder{flex-direction:column;text-align:center}.hero h1{font-size:27px}}
+</style>
+</head>
 <body>
-<header><div class="wrap head"><img class="logo" src="assets/bag-logo.jpg" alt="Logo BERITH ALLIANCE GROUP">
-<div class="brand">BERITH LEADERSHIP ACADEMY<small>BERITH ALLIANCE GROUP</small></div></div></header>
-<div class="hero"><div class="wrap"><h1>Former des leaders.<br>Construire l'avenir.</h1>
+
+<header>
+<img class="logo" src="bag-logo.jpg" alt="Logo BERITH ALLIANCE GROUP">
+<div>
+<h2>BERITH LEADERSHIP ACADEMY</h2>
+<small>BERITH ALLIANCE GROUP</small>
+</div>
+</header>
+
+<div class="hero">
+<h1>Former des leaders. Construire l'avenir.</h1>
 <p>Des formations et un accompagnement pratique pour développer votre leadership, votre vision et vos projets.</p>
-<a class="btn gold" href="#inscription">S'inscrire maintenant</a></div></div>
-<main class="wrap">
-<section><div class="panel"><h2>Nos formations</h2><div class="programs">
-<div class="program">Leadership chrétien</div><div class="program">Prise de parole en public</div>
-<div class="program">De l'idée à l'entreprise</div><div class="program">Partenariats stratégiques</div>
-<div class="program">Royaume de Dieu et affaires</div><div class="program">Vision et développement personnel</div>
-</div></div></section>
-<section><div class="panel"><h2>Durée et tarif</h2><div class="price">150 € <span class="muted" style="font-size:15px;font-weight:500">/ parcours</span></div>
-<div class="details"><span>45 jours</span><span>6 séances individuelles</span><span>Environ 60 minutes par séance</span><span>À distance</span></div>
-<p class="muted">Le tarif est le même pour chacune des six formations. Le paiement s'effectue via PayPal.</p>
-<a class="btn blue" href="https://www.paypal.me/DanielDjenonkar/150EUR" target="_blank" rel="noopener">Payer 150 € avec PayPal</a></div></section>
-<section id="inscription"><div class="panel"><h2>Inscription</h2>
-<p class="muted">Remplissez les informations ci-dessous. Votre demande sera préparée dans WhatsApp.</p>
+<a class="btn" href="#inscription">S'inscrire maintenant</a>
+</div>
+
+<section>
+<h2>Nos formations</h2>
+<div class="grid">
+<div class="item">Leadership chrétien</div>
+<div class="item">Prise de parole en public</div>
+<div class="item">De l'idée à l'entreprise</div>
+<div class="item">Partenariats stratégiques</div>
+<div class="item">Royaume de Dieu et affaires</div>
+<div class="item">Vision et développement personnel</div>
+</div>
+</section>
+
+<section>
+<h2>Durée et tarif</h2>
+<div class="price">150 € <small>/ parcours</small></div>
+<p>45 jours · 6 séances individuelles · Environ 60 minutes par séance · À distance.</p>
+<p>Le tarif est identique pour chacune des six formations.</p>
+<a class="btn blue" href="https://www.paypal.me/DanielDjenonkar/150EUR" target="_blank" rel="noopener">Payer 150 € avec PayPal</a>
+</section>
+
+<section id="inscription">
+<h2>Inscription</h2>
+<p>Remplissez les informations ci-dessous. Votre demande sera préparée dans WhatsApp.</p>
 <form id="registration">
-<label for="name">Nom et prénom</label><input id="name" required placeholder="Votre nom complet">
-<label for="email">Adresse e-mail</label><input id="email" type="email" required placeholder="vous@exemple.com">
-<label for="phone">Numéro WhatsApp</label><input id="phone" required placeholder="+33...">
-<label for="course">Formation choisie</label><select id="course" required><option value="">Choisissez une formation</option>
-<option>Leadership chrétien</option><option>Prise de parole en public</option><option>De l'idée à l'entreprise</option>
-<option>Partenariats stratégiques</option><option>Royaume de Dieu et affaires</option><option>Vision et développement personnel</option></select>
-<label for="goal">Votre objectif (facultatif)</label><textarea id="goal" rows="3" placeholder="Dites-nous brièvement ce que vous souhaitez apprendre."></textarea>
-<button class="btn green" type="submit">Envoyer mon inscription sur WhatsApp</button></form>
-<div class="actions"><a class="btn blue" href="https://wa.me/33755858256" target="_blank" rel="noopener">Contacter sur WhatsApp</a>
-<a class="btn" style="background:#eef2f8;color:var(--blue)" href="mailto:danieldjenonkar@gmail.com">Envoyer un e-mail</a></div>
-</div></section>
-<section><div class="panel founder"><img src="assets/founder-djenonkar-daniel.jpg" alt="Apôtre Djenonkar Daniel">
-<div><h2>Le fondateur</h2><strong>Apôtre Djenonkar Daniel</strong>
-<p class="muted">PDG de BERITH ALLIANCE GROUP. BERITH Leadership Academy accompagne les personnes qui souhaitent grandir en leadership, clarifier leur vision et faire avancer leurs projets.</p></div></div></section>
-</main><footer><div class="wrap">© BERITH Leadership Academy — BERITH ALLIANCE GROUP</div></footer>
+<label>Nom et prénom</label>
+<input id="name" required placeholder="Votre nom complet">
+
+<label>Adresse e-mail</label>
+<input id="email" type="email" required placeholder="Votre adresse e-mail">
+
+<label>Numéro WhatsApp</label>
+<input id="phone" required placeholder="+33...">
+
+<label>Formation choisie</label>
+<select id="course" required>
+<option value="">Choisissez une formation</option>
+<option>Leadership chrétien</option>
+<option>Prise de parole en public</option>
+<option>De l'idée à l'entreprise</option>
+<option>Partenariats stratégiques</option>
+<option>Royaume de Dieu et affaires</option>
+<option>Vision et développement personnel</option>
+</select>
+
+<label>Votre objectif (facultatif)</label>
+<textarea id="goal" placeholder="Expliquez votre objectif..."></textarea>
+
+<button class="btn blue" type="submit">Envoyer mon inscription sur WhatsApp</button>
+</form>
+<a class="btn" href="https://wa.me/33755858256">Contacter sur WhatsApp</a>
+<a class="btn" href="mailto:danieldjenonkar@gmail.com">Envoyer un e-mail</a>
+</section>
+
+<section>
+<div class="founder">
+<img src="founder-djenonkar-daniel.jpg" alt="Portrait de Coach Djenonkar Daniel">
+<div>
+<h2>Votre coach</h2>
+<h3>Coach Djenonkar Daniel</h3>
+<p>PDG de BERITH ALLIANCE GROUP. Il accompagne les personnes qui souhaitent grandir en leadership, clarifier leur vision et faire avancer leurs projets.</p>
+</div>
+</div>
+</section>
+
+<footer>
+<strong>BERITH LEADERSHIP ACADEMY</strong>
+<p>Unir les compétences. Développer les leaders. Construire l'avenir.</p>
+<p>Contact : danieldjenonkar@gmail.com</p>
+</footer>
+
 <script>
-document.getElementById('registration').addEventListener('submit',function(e){e.preventDefault();
-const v=id=>document.getElementById(id).value.trim();
-const msg="Bonjour, je souhaite m'inscrire à BERITH Leadership Academy.%0A"+
-"Nom : "+encodeURIComponent(v('name'))+"%0A"+
-"E-mail : "+encodeURIComponent(v('email'))+"%0A"+
-"WhatsApp : "+encodeURIComponent(v('phone'))+"%0A"+
-"Formation : "+encodeURIComponent(v('course'))+"%0A"+
-"Objectif : "+encodeURIComponent(v('goal'));
-window.open("https://wa.me/33755858256?text="+msg,"_blank");});
-</script></body></html>
+document.getElementById("registration").addEventListener("submit",function(e){
+e.preventDefault();
+const name=document.getElementById("name").value;
+const email=document.getElementById("email").value;
+const phone=document.getElementById("phone").value;
+const course=document.getElementById("course").value;
+const goal=document.getElementById("goal").value;
+const message="Bonjour Coach Djenonkar Daniel, je souhaite m'inscrire à BERITH Leadership Academy.%0A%0ANom : "+encodeURIComponent(name)+"%0AE-mail : "+encodeURIComponent(email)+"%0AWhatsApp : "+encodeURIComponent(phone)+"%0AFormation : "+encodeURIComponent(course)+"%0AObjectif : "+encodeURIComponent(goal)+"%0ATarif : 150 euros.";
+window.open("https://wa.me/33755858256?text="+message,"_blank");
+});
+</script>
+
+</body>
+</html>
