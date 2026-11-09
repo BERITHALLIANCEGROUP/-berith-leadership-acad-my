@@ -1,0 +1,8 @@
+BERITH LEADERSHIP ACADEMY — SITE SIMPLE
+
+Déposez index.html et le dossier assets/ à la racine du dépôt GitHub.
+Le formulaire prépare une demande d'inscription dans WhatsApp (+33 7 55 85 82 56).
+Le bouton PayPal ouvre https://www.paypal.me/DanielDjenonkar/150EUR.
+Testez le lien et le montant sur PayPal avant de diffuser le site.
+
+Publication : Settings > Pages > Deploy from a branch > main > /(root) > Save.
